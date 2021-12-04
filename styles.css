@@ -1,67 +1,66 @@
+::-webkit-scrollbar {
+  width: 7px;
+  background: #87CEEB;
+  z-index: -2;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  z-index: -2;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF9440;
+  border-radius: 10px;
+}
 body  {
   width: 100%;
-  height: 100rem;
   display: flex;
   justify-content: center;
   margin: 0;
   background-color: #87CEEB;
 }
-.stripe1 {
-  width: 3rem;
-  height: 200%;
-  position: fixed;
-  top: -200px;
-  left: 0;
-  background-color: #FF7100;
-  transform: rotate(30deg);
-  z-index: -1;
+.stripe_container {
+  width: 0;
 }
-.stripe2  {
+.stripe {
   width: 3rem;
-  height: 200%;
-  position: fixed;
-  top: -200px;
-  left: 5rem;
-  background-color: #FF7100;
-  transform: rotate(30deg);
-  z-index: -1;
+  height: 500rem;
+  background-color: #FF9440;
+  z-index: -1
 }
-.stripe3  {
-  width: 3rem;
-  height: 200%;
+.stripe_g_1 {
+  width: 9rem;
+  height: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   position: fixed;
-  top: -200px;
+  top: 10rem;
   left: 30rem;
-  background-color: #FF7100;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+.stripe_g_2  {
+  width: 9rem;
+  height: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 20rem;
+  left: 70rem;
   transform: rotate(60deg);
   z-index: -1;
 }
-.stripe4  {
-  width: 3rem;
-  height: 200%;
+.stripe_g_3  {
+  width: 9rem;
+  height: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
   position: fixed;
-  top: -200px;
-  left: 20rem;
-  background-color: #FF7100;
-  transform: rotate(60deg);
-  z-index: -1;
-}
-.stripe5  {
-  width: 100%;
-  height: 3rem;
-  position: fixed;
-  top: 21rem;
-  left: 0;
-  background-color: #FF7100;
-  z-index: -1;
-}
-.stripe6  {
-  width: 100%;
-  height: 3rem;
-  position: fixed;
-  top: 26rem;
-  left: 0;
-  background-color: #FF7100;
+  top: 20rem;
+  left: 130rem;
+  transform: rotate(90deg);
   z-index: -1;
 }
 .body2  {
@@ -70,7 +69,7 @@ body  {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  background-color: #FF7100;
+  background-color: #FF8320;
 }
 header {
   display: flex;
