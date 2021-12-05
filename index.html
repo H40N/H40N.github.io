@@ -3,27 +3,30 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <script src="nav-dropdown.js"></script>
     <title>
       Berraans
     </title>
   </head>
   <body>
-    <div class="stripe_container">
-      <div class="stripe_g_1">
-        <div class="stripe"></div>
-        <div class="stripe"></div>
+    <div>
+      <div class="stripe_container">
+        <div class="stripe_g_1">
+          <div class="stripe"></div>
+          <div class="stripe"></div>
+        </div>
       </div>
-    </div>
-    <div class="stripe_container">
-      <div class="stripe_g_2">
-        <div class="stripe"></div>
-        <div class="stripe"></div>
+      <div class="stripe_container">
+        <div class="stripe_g_2">
+          <div class="stripe"></div>
+          <div class="stripe"></div>
+        </div>
       </div>
-    </div>
-    <div class="stripe_container">
-      <div class="stripe_g_3">
-        <div class="stripe"></div>
-        <div class="stripe"></div>
+      <div class="stripe_container">
+        <div class="stripe_g_3">
+          <div class="stripe"></div>
+          <div class="stripe"></div>
+        </div>
       </div>
     </div>
     <div class="body2">
@@ -53,9 +56,11 @@
             </a>
           </li>
           <li class="nav-list">
-            <a href="arkiv.html">
-              Arkiv
-            </a>
+            <button onclick="dropdownFunction()" class="dropbtn">Arkiv</button>
+            <div id="dropdown-arkiv" class="nav-dropdown-content">
+              <a href="#">November</a>
+              <a href="#">December</a>
+            </div>
           </li>
         </ul>
       </nav>
