@@ -13,5 +13,13 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show-flex');
       }
     }
+    var arkivAnimation = document.getElementsByClassName("dropdown-animation");
+    var i;
+    for (i = 0; i < arkivAnimation.length; i++) {
+      var endAnimation = arkivAnimation[i];
+      if (endAnimation.classList.contains('move')) {
+        endAnimation.classList.remove('move');
+      }
+    }
   }
 }
