@@ -23,3 +23,7 @@ window.onclick = function(event) {
     }
   }
 }
+
+function moreFuncion() {
+  
+}
