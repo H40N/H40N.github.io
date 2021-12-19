@@ -1,16 +1,4 @@
-/*::-webkit-scrollbar {
-  width: 7px;
-  background: #87CEEB;
-  z-index: -2;
-}
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  z-index: -2;
-}
-::-webkit-scrollbar-thumb {
-  background: #FF9440;
-  border-radius: 10px;
-}*/
+/*::-webkit-scrollbar {}::-webkit-scrollbar-track {}::-webkit-scrollbar-thumb {}*/
 body  {
   width: 100%;
   display: flex;
@@ -20,7 +8,7 @@ body  {
   background-color: #f8f8ff;
 }
 nav.topnav {
-  background-image: linear-gradient(#1D2951FF, #1D2951FF);
+  background-color: #1D2951FF;
   padding: 1rem 0;
   display: flex;
   position: absolute;
@@ -28,12 +16,11 @@ nav.topnav {
   flex-flow: row nowrap;
   justify-content: flex-start;
   width: 100%;
-  height: auto;
-  min-height: 87px;
+  height: 87px;
 }
 .expand {
-position: relative;
-height: 10rem;
+  position: relative;
+  height: 0;
 }
 header {
   display: flex;

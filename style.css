@@ -1,0 +1,33 @@
+nav {
+  background-color: #1D2951;
+}
+.NavList  {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+li{
+  color: white;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+.MoreMenu {
+  padding: 3rem;
+  cursor: pointer;
+}
+.ListLogo {
+  height: 100%;
+  width: 100%;
+}
+.ListLogo a {
+  height: 100%;
+  width: 100%;
+}
+.ListLogo a img {
+  height: 100%;
+}
+.NavListItem  {
+  padding: 3rem;
+}
