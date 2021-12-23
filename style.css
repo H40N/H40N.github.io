@@ -19,14 +19,15 @@ li a{
 }
 .ListLogo {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 .ListLogo a {
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 .ListLogo a img {
-  height: 100%;
+  height: 114px;
+  width: auto;
 }
 .NavListItem  {
   padding: 3rem;
