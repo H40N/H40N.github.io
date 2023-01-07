@@ -14,8 +14,17 @@ p {
     padding: 0 0 0 3vw;
     margin: auto 0;
 }
-.container {
+p.ivrit {
+    font-size: 5vh;
+    padding: 0 3vw 0 0;
+}
+.container-ltr {
     margin: auto;
     display: flex;
     flex-flow: row nowrap;
+}
+.container-rtl {
+    margin: auto;
+    display: flex;
+    flex-flow: row-reverse nowrap;
 }
