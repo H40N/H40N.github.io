@@ -1,0 +1,23 @@
+:root {
+    --bg-color-l: #ccc;
+    --txt-color-l: #333;
+    --border-color-l: #ddd;
+    --bg-color-d: #333;
+    --txt-color-d: #aaa;
+
+}
+@media (prefers-color-scheme: light){
+    * {
+        background-color: var(--bg-color-l);
+        color: var(--txt-color-l);
+        border-color: var(--bg-color-l);
+    }
+
+}
+@media (prefers-color-scheme: dark){
+    * {
+        background-color: var(--bg-color-d);
+        color: var(--txt-color-d);
+        border-color: var(--bg-color-d);
+    }
+}

@@ -1,34 +1,21 @@
-nav {
-  background-color: #1D2951;
+:root {
+    font-family: monospace;
 }
-.NavList  {
-  display: flex;
-  flex-flow: row;
-  list-style-type: none;
+body { 
+   max-width: 960px;
+   margin: 5vw auto;
 }
-li{
-  color: white;
+h1 {
+    font-size: 10vh;
+    margin: 0;
 }
-li a{
-  color: white;
-  text-decoration: none;
+p {
+    font-size: 3vh;
+    padding: 0 0 0 3vw;
+    margin: auto 0;
 }
-.MoreMenu {
-  padding: 3rem;
-  cursor: pointer;
-}
-.ListLogo {
-  height: 100%;
-  width: auto;
-}
-.ListLogo a {
-  height: auto;
-  width: auto;
-}
-.ListLogo a img {
-  height: 114px;
-  width: auto;
-}
-.NavListItem  {
-  padding: 3rem;
+.container {
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
 }
