@@ -4,6 +4,7 @@
     --border-color-l: #ddd;
     --bg-color-d: #333;
     --txt-color-d: #aaa;
+    --border-color-d: ;
 
 }
 @media (prefers-color-scheme: light){
